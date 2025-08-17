@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section with unique ID -->
+    <header id="main-header">
+        <h1>CSS Basics & Box Model</h1>
+        <p class="subtitle">Understanding Selectors, Text Styling, and the Box Model</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li><a href="#section1" class="nav-link">Text Styling</a></li>
+            <li><a href="#section2" class="nav-link">Box Model</a></li>
+            <li><a href="#section3" class="nav-link">Components</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        
+        <!-- Section 1: Text Styling Demo -->
+        <section id="section1" class="content-section">
+            <h2 class="section-heading">Text Styling Examples</h2>
+            <p class="regular-text">This is regular text with default styling.</p>
+            <p class="highlighted-text">This text uses a class selector for special highlighting.</p>
+            <p class="large-text">This paragraph demonstrates different font sizes and families.</p>
+        </section>
+
+        <!-- Section 2: Box Model Demonstration -->
+        <section id="section2" class="content-section">
+            <h2 class="section-heading">Box Model Demonstration</h2>
+            <div class="box-model-example">
+                <p>This box demonstrates the Box Model:</p>
+                <ul>
+                    <li><strong>Content:</strong> This text and list</li>
+                    <li><strong>Padding:</strong> Space inside the border</li>
+                    <li><strong>Border:</strong> The visible border around the box</li>
+                    <li><strong>Margin:</strong> Space outside the border</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3: Interactive Components -->
+        <section id="section3" class="content-section">
+            <h2 class="section-heading">Buttons and Cards</h2>
+            
+            <!-- Button Examples -->
+            <div class="button-group">
+                <button class="btn primary-btn">Primary Button</button>
+                <button class="btn secondary-btn">Secondary Button</button>
+                <button class="btn outline-btn">Outline Button</button>
+            </div>
+
+            <!-- Card Examples -->
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="card-title">Card Example 1</h3>
+                    <p class="card-text">This card demonstrates proper use of classes for reusable styling components.</p>
+                    <button class="btn card-btn">Learn More</button>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Card Example 2</h3>
+                    <p class="card-text">Another card with the same styling, showing how classes can be reused effectively.</p>
+                    <button class="btn card-btn">Get Started</button>
+                </div>
+
+                <div class="card featured-card">
+                    <h3 class="card-title">Featured Card</h3>
+                    <p class="card-text">This card has an additional class for special featured styling.</p>
+                    <button class="btn primary-btn">Special Action</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer with unique ID -->
+    <footer id="main-footer">
+        <p>&copy; 2025 CSS Assignment. Created to demonstrate CSS fundamentals.</p>
+    </footer>
+
+</body>
+</html>
